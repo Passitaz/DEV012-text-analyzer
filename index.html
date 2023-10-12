@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+
+<body>
+  <script src="index.js" type="module"></script>
+
+  <header> 
+    <h1>Analizador de texto</h1>
+  </header>
+
+  <div id="contenedor-principal">
+    
+    <div id="contenedor-info">
+      
+      <div id="contenedor-img">
+        <img
+        src="https://c0.klipartz.com/pngpicture/603/875/gratis-png-nina-pensando-mujer-nina-pensando-mujer-thumbnail.png" 
+        />
+      </div>
+
+      <div id="contenedor-area">
+        <textarea name="user-input" input="texto" placeholder="Escribe aquí tu texto" rows="4" cols="100">
+        </textarea>
+      
+        <ul> 
+          <li class="contenedor-area" data-testid="word-count"> Palabras: 0</li>
+          <li class="contenedor-area" data-testid="character-count">Caracteres: 0</li>
+          <li class="contenedor-area" data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
+          <li class="contenedor-area" data-testid="number-count">Números: 0</li>
+          <li class="contenedor-area" data-testid="number-sum">Suma de números: 0</li>
+          <li class="contenedor-area" data-testid="word-length-average">Promedio longitud: 0</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contenedor-boton" class="limpiar">
+      <button id="reset-button">Limpiar métricas
+      </button>
+    </div>
+
+  </div>
+
+  <footer>
+    <p> Desarrollado por: <strong>Zaira Pasillas</strong></p>
+  </footer>
+
+</body>
+</html>
