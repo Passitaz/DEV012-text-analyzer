@@ -14,21 +14,37 @@
     <h1>Analizador de texto</h1>
   </header>
 
-  <textarea name="user-input" input="texto" placeholder="Escribe aquí tu texto" rows="3" cols="75">
-  </textarea>
+  <div id="contenedor-principal">
+    
+    <div id="contenedor-info">
+      
+      <div id="contenedor-img">
+        <img
+        src="https://c0.klipartz.com/pngpicture/603/875/gratis-png-nina-pensando-mujer-nina-pensando-mujer-thumbnail.png" 
+        />
+      </div>
 
-  <ul> 
-    <li data-testid="word-count"> Palabras: 0</li>
-    <li data-testid="character-count">Caracteres: 0</li>
-    <li data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
-    <li data-testid="number-count">Números: 0</li>
-    <li data-testid="number-sum">Suma de números: 0</li>
-    <li data-testid="word-length-average">Promedio longitud: 0</li>
-  </ul>
+      <div id="contenedor-area">
+        <textarea name="user-input" input="texto" placeholder="Escribe aquí tu texto" rows="4" cols="100">
+        </textarea>
+      
+        <ul> 
+          <li class="contenedor-area" data-testid="word-count"> Palabras: 0</li>
+          <li class="contenedor-area" data-testid="character-count">Caracteres: 0</li>
+          <li class="contenedor-area" data-testid="character-no-spaces-count">Caracteres sin espacios: 0</li>
+          <li class="contenedor-area" data-testid="number-count">Números: 0</li>
+          <li class="contenedor-area" data-testid="number-sum">Suma de números: 0</li>
+          <li class="contenedor-area" data-testid="word-length-average">Promedio longitud: 0</li>
+        </ul>
+      </div>
+    </div>
 
-  <button id="reset-buton">Limpiar métricas
-  </button>
+    <div id="contenedor-boton" class="limpiar">
+      <button id="reset-button">Limpiar métricas
+      </button>
+    </div>
 
+  </div>
 
   <footer>
     <p> Desarrollado por: <strong>Zaira Pasillas</strong></p>

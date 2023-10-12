@@ -1,4 +1,72 @@
+header {
+    text-shadow: 2px 2px 3px rgba(126, 65, 65, 0.253);
+  }
+  
+h1 {
+    text-align: center;
+    color: #050505;
+    font-size: 50px;
+    line-height: 150%;
+    margin: 0;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: lavender;
+    font-family: cursive;
+  }
+
+textarea[name="user-input"] {
+    border: 1px solid #5B568A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8faf9;
+    color: #464242;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+#contenedor-info{
+    display: flex;
+}
+
+#contenedor-img {
+    height: 320px;
+    border-radius: 10px; 
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+body {
+    margin: 50px;
+    background-color:LightCyan;
+  }
+
+.contenedor-area {
+    font-size: x-large;
+    font-family: cursive;
+    color: darkblue;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#reset-button {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: cornflowerblue;
+    background-color: #d5d9d8;
+}
+
+#contenedor-boton {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 footer {
     text-align: center;
     background-color: blueviolet;
-}
+    font-size: 20px;
+    margin-top: 50px;
+} 
